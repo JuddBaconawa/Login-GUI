@@ -80,6 +80,7 @@ public class App implements ActionListener {
             success.setText("Login successful!");
         } else {
             success.setText("Invalid credentials!");
+
             //userText.setText("/*Invalid username*/"); - outputs the text into the username input box
             //passwordText.setText("Invalid password"); - outputs the text into the username input box
         }
